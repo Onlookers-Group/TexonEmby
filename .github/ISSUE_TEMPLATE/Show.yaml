@@ -1,0 +1,45 @@
+name: Show
+description: "You can request a show by filling out the form!"
+title: "[Show]: "
+labels: ["Show"]
+assignees:
+  - futurkk
+body:
+  - type: markdown
+    id: Welcome
+    attributes:
+      value: |
+        感谢使用Texon's Emby!
+  - type: input
+    id: name
+    attributes:
+      label: 您想看综艺的名字/译名？
+      placeholder: ex. 极限挑战 
+    validations:
+      required: true
+  - type: input
+    id: releasedate
+    attributes:
+      label: 这部综艺的上映时间？
+      placeholder: ex. 2015
+    validations:
+      required: true
+  - type: input
+    id: TMDBurl
+    attributes:
+      label: 这部综艺的TMDB链接？
+      placeholder: ex. https://www.themoviedb.org/tv/89620
+    validations:
+      required: true
+  - type: dropdown
+    id: Countries
+    attributes:
+      label: 这部综艺的国家？
+      options:
+        - China/Hong Kong/Macao/Taiwan
+        - Japan
+        - Korea
+        - United States/Europe
+        - Others
+    validations:
+      required: true
