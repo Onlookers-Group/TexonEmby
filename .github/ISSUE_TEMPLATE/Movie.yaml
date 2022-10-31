@@ -1,5 +1,5 @@
-name: 电影
-description: ""
+name: Movie
+description: "You can request a movie by filling out the form!"
 title: "[Movie]: "
 labels: ["Movie"]
 assignees:
