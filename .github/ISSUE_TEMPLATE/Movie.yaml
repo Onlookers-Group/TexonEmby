@@ -6,6 +6,7 @@ assignees:
   - futurkk
 body:
   - type: markdown
+    id: Welcome
     attributes:
       value: |
         感谢使用Texon's Emby!
