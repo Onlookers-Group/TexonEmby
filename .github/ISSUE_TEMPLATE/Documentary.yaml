@@ -1,0 +1,45 @@
+name: Documentary
+description: "You can request a documentary by filling out the form!"
+title: "[Documentary]: "
+labels: ["Documentary"]
+assignees:
+  - futurkk
+body:
+  - type: markdown
+    id: Welcome
+    attributes:
+      value: |
+        感谢使用Texon's Emby!
+  - type: input
+    id: name
+    attributes:
+      label: 您想看纪录片的名字/译名？
+      placeholder: ex. 地球脉动 
+    validations:
+      required: true
+  - type: input
+    id: releasedate
+    attributes:
+      label: 这部纪录片的上映时间？
+      placeholder: ex. 2006
+    validations:
+      required: true
+  - type: input
+    id: TMDBurl
+    attributes:
+      label: 这部纪录片的TMDB链接？
+      placeholder: ex. https://www.themoviedb.org/tv/1044-planet-earth
+    validations:
+      required: true
+  - type: dropdown
+    id: Countries
+    attributes:
+      label: 这部纪录片的国家？
+      options:
+        - China/Hong Kong/Macao/Taiwan
+        - Japan
+        - Korea
+        - United States/Europe
+        - Others
+    validations:
+      required: true
