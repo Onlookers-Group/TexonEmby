@@ -1,0 +1,44 @@
+name: 电影
+description: ""
+title: "[Movie]: "
+labels: ["Movie"]
+assignees:
+  - futurkk
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢使用Texon's Emby!
+  - type: input
+    id: name
+    attributes:
+      label: 您看到电影名字/译名？
+      placeholder: ex. 双瞳
+    validations:
+      required: true
+  - type: input
+    id: TMDBurl
+    attributes:
+      label: 这部电影的上映时间？
+      placeholder: ex. 2002
+    validations:
+      required: true
+  - type: input
+    id: TMDBurl
+    attributes:
+      label: 这部电影的TMDB链接？
+      placeholder: ex. https://www.themoviedb.org/movie/57100-shuang-tong
+    validations:
+      required: true
+  - type: dropdown
+    id: Countries
+    attributes:
+      label: 这部电影的国家？
+      options:
+        - China/Hong Kong/Macao/Taiwan
+        - Japan
+        - Korea
+        - United States/Europe
+        - Others
+    validations:
+      required: true
