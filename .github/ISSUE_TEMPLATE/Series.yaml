@@ -13,7 +13,7 @@ body:
   - type: input
     id: name
     attributes:
-      label: 您想看剧集名字/译名？
+      label: 您想看剧集的名字/译名？
       placeholder: ex. 武林外传
     validations:
       required: true
