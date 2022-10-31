@@ -13,7 +13,7 @@ body:
   - type: input
     id: name
     attributes:
-      label: 您看到电影名字/译名？
+      label: 您想看电影名字/译名？
       placeholder: ex. 双瞳
     validations:
       required: true
