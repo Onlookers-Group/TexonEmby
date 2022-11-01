@@ -3,7 +3,7 @@ description: "You can request an anime by filling out the form!"
 title: "[Anime]: "
 labels: ["Anime"]
 assignees:
-  - futurkk
+  - JunSAMA233
 body:
   - type: markdown
     id: Welcome
